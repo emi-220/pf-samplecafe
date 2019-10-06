@@ -225,9 +225,14 @@ footer{
   white-space: pre-wrap;
   margin: 0;
 }
-.access_content .shop img{
+.access_content .shop{
   width: 450px;
   height: 400px;
+}
+
+.access_content .shop img{
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 iframe{
