@@ -162,7 +162,7 @@ header li a:hover{
 }
 .menu_content img{
   width: 450px;
-  heigt: auto;
+  height: auto;
   filter: drop-shadow( 3px 3px 10px rgba(0,0,0,.8));
 }
 
