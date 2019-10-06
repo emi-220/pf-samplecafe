@@ -117,10 +117,14 @@ header li a:hover{
   left: 0;
 }
 .about_content:nth-of-type(odd) img{
+  width: 700px;
+  height: 450px;
   z-index: 1;
   box-shadow: -5px 5px 10px gray;
 }
 .about_content:nth-of-type(even) img{
+   width: 650px;
+   height: 400px;
   z-index: 1;
   box-shadow: 5px 5px 10px gray;
 }
@@ -176,6 +180,8 @@ header li a:hover{
   padding-bottom: 40px;
 }
 .photo a{
+  width: 300px;
+  height: 300px;
   text-decoration: none;
 }
 .photo a:hover{
@@ -183,7 +189,7 @@ header li a:hover{
   filter: grayscale(70%);
   filter: brur(3px);
 }
-  
+
 .slide img{
   width: 300px;
   height: 300px;
