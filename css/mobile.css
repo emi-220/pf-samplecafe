@@ -80,7 +80,7 @@
   }
   #about .about_content img{
     width: 80%;
-    height: auto;
+    height: 150px;
     object-fit: cover;
   }
   .content{
@@ -144,6 +144,7 @@
   footer{
     height: auto;
     padding-bottom: 0;
+    box-sizing: border-box;
   }
   #access{
     display: flex;
@@ -179,5 +180,6 @@
   }
   .access_content .shop img{
     width: 100%;
-    height: auto;
+    height: 100px;
+    object-fit: cover;
   }
