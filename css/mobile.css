@@ -158,6 +158,7 @@
     order: 1;
   }
    .access_content{
+     height: auto;
     order: 3;
     display: block;
   }
@@ -177,12 +178,12 @@
   }
   .access_content .shop{
     width: 100%;
-    height: 250px;
+    height: 150px;
     margin: 0;
   }
   .access_content .shop img{
     width: 100%;
-    height: 250px;
+    height: auto;
     object-fit: cover;
   }
 〕
