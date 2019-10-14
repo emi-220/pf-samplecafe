@@ -7,8 +7,8 @@ $(function(){
 });
 
 
-$(document).ready(function(){
-  $(".slide").slick({
+jQuery(document).ready(function(){
+  jQuery(".slide").slick({
   dots: false,
   arrows: true,
   centerMode: true,
@@ -17,8 +17,8 @@ $(document).ready(function(){
   autoplay: true,
   autoplaySpeed: 5000,
 });
-  
-  $(".slide").slick({
+
+  jQuery(".slide").slick({
     responsive:({
       breakpoint: 768,
       settings:{
@@ -33,4 +33,3 @@ $(document).ready(function(){
     })
   });
 });
-
