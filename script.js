@@ -1,10 +1,25 @@
-$(function(){
-  $(".main_visual img:not(:first-child)").hide();
-  setInterval(function(){
-    $(".main_visual img:first-child").fadeOut("slow")
-    .next("img").fadeIn("slow").end().appendTo(".main_visual");
-  },5000);
+// (function(){
+//   $(".main_visual img:not(:first-child)").hide();
+//   setInterval(function(){
+//     $(".main_visual img:first-child").fadeOut("slow")
+//     .next("img").fadeIn("slow").end().appendTo(".main_visual");
+//   },5000);
+// });
+
+$(document).ready(function(){
+  $(".main_visual").slick({
+  dots: true,
+  arrows: false,
+  fade: true;
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 5000,
 });
+
+
+
+
 
 
 $(document).ready(function(){
