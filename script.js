@@ -6,21 +6,6 @@ $(function(){
   },5000);
 });
 
-//   $(document).ready(function(){
-//     $(".main_visual").slick({
-//     dots: false,
-//     arrows: false,
-//     fade: true,
-//     slidesToShow: 1,
-//     slidesToScroll: 1,
-//     autoplay: true,
-//     autoplaySpeed: 5000,
-//   });
-// });
-
-
-
-
 
 $(document).ready(function(){
   $(".slide").slick({
