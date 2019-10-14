@@ -1,5 +1,3 @@
-<script>
-
 $(function(){
   $(".main_visual img:not(:first-child)").hide();
   setInterval(function(){
@@ -35,5 +33,3 @@ $(document).ready(function(){
     })
   });
 });
-
-</script>
