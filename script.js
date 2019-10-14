@@ -8,7 +8,7 @@
 
   $(document).ready(function(){
     $(".main_visual").slick({
-    dots: true,
+    dots: false,
     arrows: false,
     fade: true,
     slidesToShow: 1,
