@@ -17,8 +17,6 @@ $(document).ready(function(){
   autoplay: true,
   autoplaySpeed: 4000,
 });
-
-  $(".slide").slick({
     responsive:({
       breakpoint: 768,
       settings:{
@@ -32,4 +30,3 @@ $(document).ready(function(){
       }
     })
   });
-});
